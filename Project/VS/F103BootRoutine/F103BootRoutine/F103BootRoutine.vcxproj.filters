@@ -789,5 +789,8 @@
     <ClCompile Include="..\..\..\..\UCOSII\PORT\os_cpu_a.s">
       <Filter>Source files\UCOSII-PORT</Filter>
     </ClCompile>
+    <ClInclude Include="RTE/RTE_Components.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

@@ -842,4 +842,7 @@
       </ImportedConfiguration>
     </Configurations>
   </ImportedProject>
+  <SyntheticFrameworkFolderNames>
+    <string>RTE</string>
+  </SyntheticFrameworkFolderNames>
 </EmbeddedProfile>

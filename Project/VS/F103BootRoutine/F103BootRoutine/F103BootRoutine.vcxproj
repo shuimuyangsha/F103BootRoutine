@@ -275,5 +275,6 @@
     <None Include="F103BootRoutine-Debug.vgdbsettings" />
     <None Include="F103BootRoutine-Release.vgdbsettings" />
     <None Include="MCU.xml" />
+    <ClInclude Include="RTE/RTE_Components.h" />
   </ItemGroup>
 </Project>
