@@ -46,6 +46,7 @@
       <AdditionalOptions />
       <CLanguageStandard />
       <CPPLanguageStandard />
+      <Optimization>O2</Optimization>
     </ClCompile>
     <Link>
       <AdditionalLinkerInputs>%(Link.AdditionalLinkerInputs)</AdditionalLinkerInputs>
@@ -53,6 +54,7 @@
     </Link>
     <KeilSettingsContainer>
       <KeilCPUType>Cortex-M3-rev0</KeilCPUType>
+      <ARMCPU>cortex-m3</ARMCPU>
     </KeilSettingsContainer>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|VisualGDB'">
