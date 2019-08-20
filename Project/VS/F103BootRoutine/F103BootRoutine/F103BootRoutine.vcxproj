@@ -1,0 +1,279 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|VisualGDB">
+      <Configuration>Debug</Configuration>
+      <Platform>VisualGDB</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|VisualGDB">
+      <Configuration>Release</Configuration>
+      <Platform>VisualGDB</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>15.0</VCProjectVersion>
+    <ProjectGuid>{A5176412-58C6-4DDF-8134-4E85CEAA2874}</ProjectGuid>
+    <BSP_ID>KEIL:Keil/STM32F1xx_DFP</BSP_ID>
+    <BSP_VERSION>2.3.0</BSP_VERSION>
+    <InPlaceBSPSubdir />
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Label="Configuration" Condition="'$(Configuration)|$(Platform)'=='Debug|VisualGDB'">
+    <MCUPropertyListFile>$(ProjectDir)mcu.props</MCUPropertyListFile>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration" Condition="'$(Configuration)|$(Platform)'=='Release|VisualGDB'">
+    <MCUPropertyListFile>$(ProjectDir)mcu.props</MCUPropertyListFile>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|VisualGDB'">
+    <GNUConfigurationType>Debug</GNUConfigurationType>
+    <ToolchainID>com.sysprogs.toolchains.nongnu.armcc</ToolchainID>
+    <ToolchainVersion>5.x//r1</ToolchainVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|VisualGDB'">
+    <ToolchainID>com.sysprogs.toolchains.nongnu.armcc</ToolchainID>
+    <ToolchainVersion>5.x//r1</ToolchainVersion>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|VisualGDB'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>..\..\..\..\SYSTEM\delay;..\..\..\..\SYSTEM\sys;..\..\..\..\SYSTEM\usart;..\..\..\..\HARDWARE\LED;..\..\..\..\HARDWARE\BEEP;..\..\..\..\HARDWARE\KEY;..\..\..\..\HARDWARE\EXTI;..\..\..\..\HARDWARE\WDG;..\..\..\..\HARDWARE\TIMER;..\..\..\..\HARDWARE\TPAD;..\..\..\..\HARDWARE\OLED;..\..\..\..\HARDWARE\LCD;..\..\..\..\HARDWARE\RTC;..\..\..\..\HARDWARE\WKUP;..\..\..\..\HARDWARE\ADC;..\..\..\..\HARDWARE\LSENS;..\..\..\..\HARDWARE\DAC;..\..\..\..\HARDWARE\DMA;..\..\..\..\HARDWARE\24CXX;..\..\..\..\HARDWARE\SPI;..\..\..\..\HARDWARE\W25QXX;..\..\..\..\HARDWARE\RS485;..\..\..\..\HARDWARE\CAN;..\..\..\..\HARDWARE\TOUCH;..\..\..\..\HARDWARE\REMOTE;..\..\..\..\HARDWARE\JOYPAD;..\..\..\..\HARDWARE\DS18B20;..\..\..\..\HARDWARE\DHT11;..\..\..\..\HARDWARE\MPU6050;..\..\..\..\HARDWARE\MPU6050\eMPL;..\..\..\..\HARDWARE\NRF24L01;..\..\..\..\HARDWARE\STMFLASH;..\..\..\..\HARDWARE\OV7670;..\..\..\..\HARDWARE\SRAM;..\..\..\..\HARDWARE\SDIO;..\..\..\..\HARDWARE\VS10XX;..\..\..\..\HARDWARE\SPBLCD;..\..\..\..\HARDWARE\SIM900A;..\..\..\..\HARDWARE\USART3;..\..\..\..\HARDWARE\DM9000;..\..\..\..\FATFS\src;..\..\..\..\FATFS\exfuns;..\..\..\..\USMART;..\..\..\..\MALLOC;..\..\..\..\TEXT;..\..\..\..\PICTURE;..\..\..\..\APP;..\..\..\..\GUI;..\..\..\..\UCOSII\CONFIG;..\..\..\..\UCOSII\CORE;..\..\..\..\UCOSII\PORT;..\..\..\..\AUDIOCODEC;..\..\..\..\NES;..\..\..\..\NES\mapper;..\..\..\..\T9INPUT;..\..\..\..\ATKNCR;..\..\..\..\USB\CONFIG;..\..\..\..\USB\STM32_USB-FS-Device_Driver\inc;..\..\..\..\LWIP;..\..\..\..\LWIP\arch;..\..\..\..\LWIP\lwip-1.4.1\src\include;..\..\..\..\LWIP\lwip-1.4.1\src\include\ipv4;..\..\..\..\LWIP\lwip-1.4.1\src\include\lwip;..\..\..\..\LWIP\lwip-1.4.1\src\include\netif;..\..\..\..\LWIP\lwip_app\lwip_comm;..\..\..\..\LWIP\lwip_app\web_server_demo;..\..\..\..\CORE;..\..\..\..\STM32F10x_FWLib\inc;..\..\..\..\USER;%(ClCompile.AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>STM32F10X_HD;USE_STDPERIPH_DRIVER;%(ClCompile.PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalOptions />
+      <CLanguageStandard />
+      <CPPLanguageStandard />
+    </ClCompile>
+    <Link>
+      <AdditionalLinkerInputs>%(Link.AdditionalLinkerInputs)</AdditionalLinkerInputs>
+      <AdditionalOptions />
+    </Link>
+    <KeilSettingsContainer>
+      <KeilCPUType>Cortex-M3-rev0</KeilCPUType>
+    </KeilSettingsContainer>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|VisualGDB'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>..\..\..\..\SYSTEM\delay;..\..\..\..\SYSTEM\sys;..\..\..\..\SYSTEM\usart;..\..\..\..\HARDWARE\LED;..\..\..\..\HARDWARE\BEEP;..\..\..\..\HARDWARE\KEY;..\..\..\..\HARDWARE\EXTI;..\..\..\..\HARDWARE\WDG;..\..\..\..\HARDWARE\TIMER;..\..\..\..\HARDWARE\TPAD;..\..\..\..\HARDWARE\OLED;..\..\..\..\HARDWARE\LCD;..\..\..\..\HARDWARE\RTC;..\..\..\..\HARDWARE\WKUP;..\..\..\..\HARDWARE\ADC;..\..\..\..\HARDWARE\LSENS;..\..\..\..\HARDWARE\DAC;..\..\..\..\HARDWARE\DMA;..\..\..\..\HARDWARE\24CXX;..\..\..\..\HARDWARE\SPI;..\..\..\..\HARDWARE\W25QXX;..\..\..\..\HARDWARE\RS485;..\..\..\..\HARDWARE\CAN;..\..\..\..\HARDWARE\TOUCH;..\..\..\..\HARDWARE\REMOTE;..\..\..\..\HARDWARE\JOYPAD;..\..\..\..\HARDWARE\DS18B20;..\..\..\..\HARDWARE\DHT11;..\..\..\..\HARDWARE\MPU6050;..\..\..\..\HARDWARE\MPU6050\eMPL;..\..\..\..\HARDWARE\NRF24L01;..\..\..\..\HARDWARE\STMFLASH;..\..\..\..\HARDWARE\OV7670;..\..\..\..\HARDWARE\SRAM;..\..\..\..\HARDWARE\SDIO;..\..\..\..\HARDWARE\VS10XX;..\..\..\..\HARDWARE\SPBLCD;..\..\..\..\HARDWARE\SIM900A;..\..\..\..\HARDWARE\USART3;..\..\..\..\HARDWARE\DM9000;..\..\..\..\FATFS\src;..\..\..\..\FATFS\exfuns;..\..\..\..\USMART;..\..\..\..\MALLOC;..\..\..\..\TEXT;..\..\..\..\PICTURE;..\..\..\..\APP;..\..\..\..\GUI;..\..\..\..\UCOSII\CONFIG;..\..\..\..\UCOSII\CORE;..\..\..\..\UCOSII\PORT;..\..\..\..\AUDIOCODEC;..\..\..\..\NES;..\..\..\..\NES\mapper;..\..\..\..\T9INPUT;..\..\..\..\ATKNCR;..\..\..\..\USB\CONFIG;..\..\..\..\USB\STM32_USB-FS-Device_Driver\inc;..\..\..\..\LWIP;..\..\..\..\LWIP\arch;..\..\..\..\LWIP\lwip-1.4.1\src\include;..\..\..\..\LWIP\lwip-1.4.1\src\include\ipv4;..\..\..\..\LWIP\lwip-1.4.1\src\include\lwip;..\..\..\..\LWIP\lwip-1.4.1\src\include\netif;..\..\..\..\LWIP\lwip_app\lwip_comm;..\..\..\..\LWIP\lwip_app\web_server_demo;..\..\..\..\CORE;..\..\..\..\STM32F10x_FWLib\inc;..\..\..\..\USER;%(ClCompile.AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>STM32F10X_HD;USE_STDPERIPH_DRIVER;%(ClCompile.PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalOptions />
+      <CLanguageStandard />
+      <CPPLanguageStandard />
+    </ClCompile>
+    <Link>
+      <AdditionalLinkerInputs>%(Link.AdditionalLinkerInputs)</AdditionalLinkerInputs>
+      <AdditionalOptions />
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\UCOSII\PORT\os_cpu_a.s" />
+    <ClCompile Include="..\..\..\..\USER\main.c" />
+    <ClCompile Include="..\..\..\..\USER\system_stm32f10x.c" />
+    <ClCompile Include="..\..\..\..\SYSTEM\delay\delay.c" />
+    <ClCompile Include="..\..\..\..\SYSTEM\sys\sys.c" />
+    <ClCompile Include="..\..\..\..\SYSTEM\usart\usart.c" />
+    <ClCompile Include="..\..\..\..\CORE\core_cm3.c" />
+    <ClCompile Include="..\..\..\..\CORE\startup_stm32f10x_hd.s" />
+    <ClCompile Include="..\..\..\..\STM32F10x_FWLib\src\misc.c" />
+    <ClCompile Include="..\..\..\..\STM32F10x_FWLib\src\stm32f10x_adc.c" />
+    <ClCompile Include="..\..\..\..\STM32F10x_FWLib\src\stm32f10x_bkp.c" />
+    <ClCompile Include="..\..\..\..\STM32F10x_FWLib\src\stm32f10x_can.c" />
+    <ClCompile Include="..\..\..\..\STM32F10x_FWLib\src\stm32f10x_cec.c" />
+    <ClCompile Include="..\..\..\..\STM32F10x_FWLib\src\stm32f10x_crc.c" />
+    <ClCompile Include="..\..\..\..\STM32F10x_FWLib\src\stm32f10x_dac.c" />
+    <ClCompile Include="..\..\..\..\STM32F10x_FWLib\src\stm32f10x_dbgmcu.c" />
+    <ClCompile Include="..\..\..\..\STM32F10x_FWLib\src\stm32f10x_dma.c" />
+    <ClCompile Include="..\..\..\..\STM32F10x_FWLib\src\stm32f10x_exti.c" />
+    <ClCompile Include="..\..\..\..\STM32F10x_FWLib\src\stm32f10x_flash.c" />
+    <ClCompile Include="..\..\..\..\STM32F10x_FWLib\src\stm32f10x_fsmc.c" />
+    <ClCompile Include="..\..\..\..\STM32F10x_FWLib\src\stm32f10x_gpio.c" />
+    <ClCompile Include="..\..\..\..\STM32F10x_FWLib\src\stm32f10x_i2c.c" />
+    <ClCompile Include="..\..\..\..\STM32F10x_FWLib\src\stm32f10x_iwdg.c" />
+    <ClCompile Include="..\..\..\..\STM32F10x_FWLib\src\stm32f10x_pwr.c" />
+    <ClCompile Include="..\..\..\..\STM32F10x_FWLib\src\stm32f10x_rcc.c" />
+    <ClCompile Include="..\..\..\..\STM32F10x_FWLib\src\stm32f10x_rtc.c" />
+    <ClCompile Include="..\..\..\..\STM32F10x_FWLib\src\stm32f10x_sdio.c" />
+    <ClCompile Include="..\..\..\..\STM32F10x_FWLib\src\stm32f10x_spi.c" />
+    <ClCompile Include="..\..\..\..\STM32F10x_FWLib\src\stm32f10x_tim.c" />
+    <ClCompile Include="..\..\..\..\STM32F10x_FWLib\src\stm32f10x_usart.c" />
+    <ClCompile Include="..\..\..\..\STM32F10x_FWLib\src\stm32f10x_wwdg.c" />
+    <ClCompile Include="..\..\..\..\HARDWARE\LED\led.c" />
+    <ClCompile Include="..\..\..\..\HARDWARE\KEY\key.c" />
+    <ClCompile Include="..\..\..\..\HARDWARE\BEEP\beep.c" />
+    <ClCompile Include="..\..\..\..\HARDWARE\LCD\lcd.c" />
+    <ClCompile Include="..\..\..\..\HARDWARE\TPAD\tpad.c" />
+    <ClCompile Include="..\..\..\..\HARDWARE\EXTI\exti.c" />
+    <ClCompile Include="..\..\..\..\HARDWARE\SDIO\sdio_sdcard.c" />
+    <ClCompile Include="..\..\..\..\HARDWARE\SPI\spi.c" />
+    <ClCompile Include="..\..\..\..\HARDWARE\W25QXX\w25qxx.c" />
+    <ClCompile Include="..\..\..\..\HARDWARE\VS10XX\vs10xx.c" />
+    <ClCompile Include="..\..\..\..\HARDWARE\DS18B20\ds18b20.c" />
+    <ClCompile Include="..\..\..\..\HARDWARE\JOYPAD\joypad.c" />
+    <ClCompile Include="..\..\..\..\HARDWARE\LSENS\lsens.c" />
+    <ClCompile Include="..\..\..\..\HARDWARE\SPBLCD\spblcd.c" />
+    <ClCompile Include="..\..\..\..\HARDWARE\TIMER\timer.c" />
+    <ClCompile Include="..\..\..\..\HARDWARE\ADC\adc.c" />
+    <ClCompile Include="..\..\..\..\HARDWARE\TOUCH\ctiic.c" />
+    <ClCompile Include="..\..\..\..\HARDWARE\TOUCH\ft5206.c" />
+    <ClCompile Include="..\..\..\..\HARDWARE\TOUCH\gt9147.c" />
+    <ClCompile Include="..\..\..\..\HARDWARE\TOUCH\ott2001a.c" />
+    <ClCompile Include="..\..\..\..\HARDWARE\TOUCH\touch.c" />
+    <ClCompile Include="..\..\..\..\HARDWARE\24CXX\24cxx.c" />
+    <ClCompile Include="..\..\..\..\HARDWARE\24CXX\myiic.c" />
+    <ClCompile Include="..\..\..\..\HARDWARE\SRAM\sram.c" />
+    <ClCompile Include="..\..\..\..\HARDWARE\RTC\rtc.c" />
+    <ClCompile Include="..\..\..\..\HARDWARE\OV7670\ov7670.c" />
+    <ClCompile Include="..\..\..\..\HARDWARE\OV7670\sccb.c" />
+    <ClCompile Include="..\..\..\..\HARDWARE\NRF24L01\24l01.c" />
+    <ClCompile Include="..\..\..\..\HARDWARE\USART3\usart3.c" />
+    <ClCompile Include="..\..\..\..\HARDWARE\SIM900A\sim900a.c" />
+    <ClCompile Include="..\..\..\..\HARDWARE\REMOTE\remote.c" />
+    <ClCompile Include="..\..\..\..\HARDWARE\MPU6050\mpu6050.c" />
+    <ClCompile Include="..\..\..\..\HARDWARE\MPU6050\mpuiic.c" />
+    <ClCompile Include="..\..\..\..\HARDWARE\MPU6050\eMPL\inv_mpu.c" />
+    <ClCompile Include="..\..\..\..\HARDWARE\MPU6050\eMPL\inv_mpu_dmp_motion_driver.c" />
+    <ClCompile Include="..\..\..\..\HARDWARE\DM9000\dm9000.c" />
+    <ClCompile Include="..\..\..\..\USMART\usmart.c" />
+    <ClCompile Include="..\..\..\..\USMART\usmart_config.c" />
+    <ClCompile Include="..\..\..\..\USMART\usmart_str.c" />
+    <ClCompile Include="..\..\..\..\MALLOC\malloc.c" />
+    <ClCompile Include="..\..\..\..\FATFS\src\diskio.c" />
+    <ClCompile Include="..\..\..\..\FATFS\src\ff.c" />
+    <ClCompile Include="..\..\..\..\FATFS\exfuns\exfuns.c" />
+    <ClCompile Include="..\..\..\..\FATFS\exfuns\fattester.c" />
+    <ClCompile Include="..\..\..\..\FATFS\exfuns\mycc936.c" />
+    <ClCompile Include="..\..\..\..\TEXT\fontupd.c" />
+    <ClCompile Include="..\..\..\..\TEXT\text.c" />
+    <ClCompile Include="..\..\..\..\PICTURE\bmp.c" />
+    <ClCompile Include="..\..\..\..\PICTURE\gif.c" />
+    <ClCompile Include="..\..\..\..\PICTURE\piclib.c" />
+    <ClCompile Include="..\..\..\..\PICTURE\tjpgd.c" />
+    <ClCompile Include="..\..\..\..\APP\common.c" />
+    <ClCompile Include="..\..\..\..\APP\spb.c" />
+    <ClCompile Include="..\..\..\..\APP\ebook.c" />
+    <ClCompile Include="..\..\..\..\APP\picviewer.c" />
+    <ClCompile Include="..\..\..\..\APP\audioplay.c" />
+    <ClCompile Include="..\..\..\..\APP\lyric.c" />
+    <ClCompile Include="..\..\..\..\APP\calendar.c" />
+    <ClCompile Include="..\..\..\..\APP\settings.c" />
+    <ClCompile Include="..\..\..\..\APP\nesplay.c" />
+    <ClCompile Include="..\..\..\..\APP\notepad.c" />
+    <ClCompile Include="..\..\..\..\APP\paint.c" />
+    <ClCompile Include="..\..\..\..\APP\recorder.c" />
+    <ClCompile Include="..\..\..\..\APP\tomcatplay.c" />
+    <ClCompile Include="..\..\..\..\APP\exeplay.c" />
+    <ClCompile Include="..\..\..\..\APP\camera.c" />
+    <ClCompile Include="..\..\..\..\APP\usbplay.c" />
+    <ClCompile Include="..\..\..\..\APP\netplay.c" />
+    <ClCompile Include="..\..\..\..\APP\calculator.c" />
+    <ClCompile Include="..\..\..\..\APP\wirelessplay.c" />
+    <ClCompile Include="..\..\..\..\APP\phoneplay.c" />
+    <ClCompile Include="..\..\..\..\APP\smsplay.c" />
+    <ClCompile Include="..\..\..\..\APP\appplay.c" />
+    <ClCompile Include="..\..\..\..\APP\appplay_remote.c" />
+    <ClCompile Include="..\..\..\..\APP\appplay_gyro.c" />
+    <ClCompile Include="..\..\..\..\GUI\button.c" />
+    <ClCompile Include="..\..\..\..\GUI\edit.c" />
+    <ClCompile Include="..\..\..\..\GUI\filelistbox.c" />
+    <ClCompile Include="..\..\..\..\GUI\gui.c" />
+    <ClCompile Include="..\..\..\..\GUI\listbox.c" />
+    <ClCompile Include="..\..\..\..\GUI\memo.c" />
+    <ClCompile Include="..\..\..\..\GUI\progressbar.c" />
+    <ClCompile Include="..\..\..\..\GUI\scrollbar.c" />
+    <ClCompile Include="..\..\..\..\GUI\window.c" />
+    <ClCompile Include="..\..\..\..\UCOSII\CORE\os_core.c" />
+    <ClCompile Include="..\..\..\..\UCOSII\CORE\os_flag.c" />
+    <ClCompile Include="..\..\..\..\UCOSII\CORE\os_mbox.c" />
+    <ClCompile Include="..\..\..\..\UCOSII\CORE\os_mem.c" />
+    <ClCompile Include="..\..\..\..\UCOSII\CORE\os_mutex.c" />
+    <ClCompile Include="..\..\..\..\UCOSII\CORE\os_q.c" />
+    <ClCompile Include="..\..\..\..\UCOSII\CORE\os_sem.c" />
+    <ClCompile Include="..\..\..\..\UCOSII\CORE\os_task.c" />
+    <ClCompile Include="..\..\..\..\UCOSII\CORE\os_time.c" />
+    <ClCompile Include="..\..\..\..\UCOSII\CORE\os_tmr.c" />
+    <ClCompile Include="..\..\..\..\UCOSII\PORT\os_cpu_c.c" />
+    <ClCompile Include="..\..\..\..\AUDIOCODEC\mp3player.c" />
+    <ClCompile Include="..\..\..\..\NES\nes_apu.c" />
+    <ClCompile Include="..\..\..\..\NES\nes_main.c" />
+    <ClCompile Include="..\..\..\..\NES\nes_mapper.c" />
+    <ClCompile Include="..\..\..\..\NES\nes_ppu.c" />
+    <ClCompile Include="..\..\..\..\NES\6502.s" />
+    <ClCompile Include="..\..\..\..\NES\nes_crc32.c" />
+    <ClCompile Include="..\..\..\..\T9INPUT\pyinput.c" />
+    <ClCompile Include="..\..\..\..\T9INPUT\t9input.c" />
+    <ClCompile Include="..\..\..\..\ATKNCR\atk_ncr.c" />
+    <Library Include="..\..\..\..\ATKNCR\ATKNCR_M_V2.0.lib" />
+    <ClCompile Include="..\..\..\..\USB\STM32_USB-FS-Device_Driver\src\usb_core.c" />
+    <ClCompile Include="..\..\..\..\USB\STM32_USB-FS-Device_Driver\src\usb_init.c" />
+    <ClCompile Include="..\..\..\..\USB\STM32_USB-FS-Device_Driver\src\usb_int.c" />
+    <ClCompile Include="..\..\..\..\USB\STM32_USB-FS-Device_Driver\src\usb_mem.c" />
+    <ClCompile Include="..\..\..\..\USB\STM32_USB-FS-Device_Driver\src\usb_regs.c" />
+    <ClCompile Include="..\..\..\..\USB\STM32_USB-FS-Device_Driver\src\usb_sil.c" />
+    <ClCompile Include="..\..\..\..\USB\CONFIG\hw_config.c" />
+    <ClCompile Include="..\..\..\..\USB\CONFIG\mass_mal.c" />
+    <ClCompile Include="..\..\..\..\USB\CONFIG\memory.c" />
+    <ClCompile Include="..\..\..\..\USB\CONFIG\scsi_data.c" />
+    <ClCompile Include="..\..\..\..\USB\CONFIG\usb_bot.c" />
+    <ClCompile Include="..\..\..\..\USB\CONFIG\usb_desc.c" />
+    <ClCompile Include="..\..\..\..\USB\CONFIG\usb_endp.c" />
+    <ClCompile Include="..\..\..\..\USB\CONFIG\usb_istr.c" />
+    <ClCompile Include="..\..\..\..\USB\CONFIG\usb_prop.c" />
+    <ClCompile Include="..\..\..\..\USB\CONFIG\usb_pwr.c" />
+    <ClCompile Include="..\..\..\..\USB\CONFIG\usb_scsi.c" />
+    <ClCompile Include="..\..\..\..\LWIP\lwip_app\lwip_comm\lwip_comm.c" />
+    <ClCompile Include="..\..\..\..\LWIP\lwip_app\web_server_demo\fs.c" />
+    <ClCompile Include="..\..\..\..\LWIP\lwip_app\web_server_demo\httpd.c" />
+    <ClCompile Include="..\..\..\..\LWIP\lwip_app\web_server_demo\httpd_cgi_ssi.c" />
+    <ClCompile Include="..\..\..\..\LWIP\lwip-1.4.1\src\netif\etharp.c" />
+    <ClCompile Include="..\..\..\..\LWIP\lwip-1.4.1\src\netif\ethernetif.c" />
+    <ClCompile Include="..\..\..\..\LWIP\lwip-1.4.1\src\core\ipv4\autoip.c" />
+    <ClCompile Include="..\..\..\..\LWIP\lwip-1.4.1\src\core\ipv4\icmp.c" />
+    <ClCompile Include="..\..\..\..\LWIP\lwip-1.4.1\src\core\ipv4\igmp.c" />
+    <ClCompile Include="..\..\..\..\LWIP\lwip-1.4.1\src\core\ipv4\inet.c" />
+    <ClCompile Include="..\..\..\..\LWIP\lwip-1.4.1\src\core\ipv4\inet_chksum.c" />
+    <ClCompile Include="..\..\..\..\LWIP\lwip-1.4.1\src\core\ipv4\ip.c" />
+    <ClCompile Include="..\..\..\..\LWIP\lwip-1.4.1\src\core\ipv4\ip_addr.c" />
+    <ClCompile Include="..\..\..\..\LWIP\lwip-1.4.1\src\core\ipv4\ip_frag.c" />
+    <ClCompile Include="..\..\..\..\LWIP\lwip-1.4.1\src\core\def.c" />
+    <ClCompile Include="..\..\..\..\LWIP\lwip-1.4.1\src\core\dhcp.c" />
+    <ClCompile Include="..\..\..\..\LWIP\lwip-1.4.1\src\core\dns.c" />
+    <ClCompile Include="..\..\..\..\LWIP\lwip-1.4.1\src\core\init.c" />
+    <ClCompile Include="..\..\..\..\LWIP\lwip-1.4.1\src\core\mem.c" />
+    <ClCompile Include="..\..\..\..\LWIP\lwip-1.4.1\src\core\memp.c" />
+    <ClCompile Include="..\..\..\..\LWIP\lwip-1.4.1\src\core\netif.c" />
+    <ClCompile Include="..\..\..\..\LWIP\lwip-1.4.1\src\core\pbuf.c" />
+    <ClCompile Include="..\..\..\..\LWIP\lwip-1.4.1\src\core\raw.c" />
+    <ClCompile Include="..\..\..\..\LWIP\lwip-1.4.1\src\core\stats.c" />
+    <ClCompile Include="..\..\..\..\LWIP\lwip-1.4.1\src\core\tcp.c" />
+    <ClCompile Include="..\..\..\..\LWIP\lwip-1.4.1\src\core\tcp_in.c" />
+    <ClCompile Include="..\..\..\..\LWIP\lwip-1.4.1\src\core\tcp_out.c" />
+    <ClCompile Include="..\..\..\..\LWIP\lwip-1.4.1\src\core\timers.c" />
+    <ClCompile Include="..\..\..\..\LWIP\lwip-1.4.1\src\core\udp.c" />
+    <ClCompile Include="..\..\..\..\LWIP\arch\sys_arch.c" />
+    <ClCompile Include="..\..\..\..\LWIP\lwip-1.4.1\src\api\api_lib.c" />
+    <ClCompile Include="..\..\..\..\LWIP\lwip-1.4.1\src\api\api_msg.c" />
+    <ClCompile Include="..\..\..\..\LWIP\lwip-1.4.1\src\api\err.c" />
+    <ClCompile Include="..\..\..\..\LWIP\lwip-1.4.1\src\api\netbuf.c" />
+    <ClCompile Include="..\..\..\..\LWIP\lwip-1.4.1\src\api\netdb.c" />
+    <ClCompile Include="..\..\..\..\LWIP\lwip-1.4.1\src\api\netifapi.c" />
+    <ClCompile Include="..\..\..\..\LWIP\lwip-1.4.1\src\api\sockets.c" />
+    <ClCompile Include="..\..\..\..\LWIP\lwip-1.4.1\src\api\tcpip.c" />
+    <None Include="mcu.props" />
+    <ClInclude Include="..\..\..\..\UCOSII\PORT\os_cpu.h" />
+    <ClInclude Include="..\..\..\..\UCOSII\CONFIG\os_cfg.h" />
+    <ClInclude Include="..\..\..\..\UCOSII\CONFIG\includes.h" />
+    <None Include="..\..\..\..\README.TXT" />
+    <ClInclude Include="$(BSP_ROOT)\Device\Include\stm32f10x.h" />
+    <None Include="F103BootRoutine-Debug.vgdbsettings" />
+    <None Include="F103BootRoutine-Release.vgdbsettings" />
+    <None Include="MCU.xml" />
+  </ItemGroup>
+</Project>
