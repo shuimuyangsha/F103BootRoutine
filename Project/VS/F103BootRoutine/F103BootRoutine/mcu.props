@@ -9,8 +9,8 @@
 <!-- In order to build this project manually (outside VisualGDB), please provide TOOLCHAIN_ROOT, BSP_ROOT, EFP_BASE and TESTFW_BASE variables via Environment or Make command line -->
 	<ItemDefinitionGroup>
 		<ClCompile>
-			<PreprocessorDefinitions>STM32F10X_HD;_RTE_;%(ClCompile.PreprocessorDefinitions)</PreprocessorDefinitions>
-			<AdditionalIncludeDirectories>$(BSP_ROOT)/Device/Include;RTE;%(ClCompile.AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+			<PreprocessorDefinitions>STM32F10X_HD;%(ClCompile.PreprocessorDefinitions)</PreprocessorDefinitions>
+			<AdditionalIncludeDirectories>%(ClCompile.AdditionalIncludeDirectories);$(BSP_ROOT)/Device/Include</AdditionalIncludeDirectories>
 		</ClCompile>
 	</ItemDefinitionGroup>
 	<ItemDefinitionGroup>
@@ -20,10 +20,10 @@
 
 	<ItemDefinitionGroup>
 		<Link>
-			<RAMBase>0x20000000</RAMBase>
-			<ROMBase>0x08000000</ROMBase>
-			<EntryPoint>Reset_Handler</EntryPoint>
-			<FirstSymbol>__Vectors</FirstSymbol>
+			<RAMBase  Condition="('%(Link.RAMBase)' == '') and ('%(Link.LinkerScript)' == '')">0x20000000</RAMBase>
+			<ROMBase  Condition="('%(Link.ROMBase)' == '') and ('%(Link.LinkerScript)' == '')">0x08000000</ROMBase>
+			<EntryPoint  Condition="('%(Link.EntryPoint)' == '') and ('%(Link.LinkerScript)' == '')">Reset_Handler</EntryPoint>
+			<FirstSymbol  Condition="('%(Link.FirstSymbol)' == '') and ('%(Link.LinkerScript)' == '')">__Vectors</FirstSymbol>
 		</Link>
 	</ItemDefinitionGroup>
 </Project>

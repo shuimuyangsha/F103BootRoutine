@@ -6,7 +6,7 @@
     <Revision>1</Revision>
   </ToolchainVersion>
   <BspID>KEIL:Keil/STM32F1xx_DFP</BspID>
-  <BspVersion>2.3.0</BspVersion>
+  <BspVersion>2.2.0</BspVersion>
   <McuID>STM32F103ZE</McuID>
   <MCUDefinitionFile>SVD/STM32F103xx.svd</MCUDefinitionFile>
   <MCUProperties>
@@ -27,7 +27,7 @@
     <AllDependencies>
       <ProjectDependency>
         <RelativePath>..\..\..\..\USER\TEST.uvprojx</RelativePath>
-        <Timestamp>130841171433071473</Timestamp>
+        <Timestamp>132152850499973985</Timestamp>
       </ProjectDependency>
     </AllDependencies>
     <RootDirectory>
@@ -476,10 +476,10 @@
               <RelativePath>..\..\..\..\UCOSII\PORT\os_cpu_c.c</RelativePath>
             </VirtualFileSnapshot>
             <VirtualFileSnapshot>
-              <RelativePath>..\..\..\..\UCOSII\PORT\os_cpu_a.asm</RelativePath>
+              <RelativePath>..\..\..\..\UCOSII\PORT\os_cpu.h</RelativePath>
             </VirtualFileSnapshot>
             <VirtualFileSnapshot>
-              <RelativePath>..\..\..\..\UCOSII\PORT\os_cpu.h</RelativePath>
+              <RelativePath>..\..\..\..\UCOSII\PORT\os_cpu_a.s</RelativePath>
             </VirtualFileSnapshot>
           </Files>
         </VirtualDirectorySnapshot>
@@ -842,7 +842,4 @@
       </ImportedConfiguration>
     </Configurations>
   </ImportedProject>
-  <SyntheticFrameworkFolderNames>
-    <string>RTE</string>
-  </SyntheticFrameworkFolderNames>
 </EmbeddedProfile>

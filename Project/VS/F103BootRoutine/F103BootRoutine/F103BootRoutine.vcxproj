@@ -12,9 +12,9 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
-    <ProjectGuid>{A5176412-58C6-4DDF-8134-4E85CEAA2874}</ProjectGuid>
+    <ProjectGuid>{B7FDFE0C-60FE-4BED-8346-936B575A25E4}</ProjectGuid>
     <BSP_ID>KEIL:Keil/STM32F1xx_DFP</BSP_ID>
-    <BSP_VERSION>2.3.0</BSP_VERSION>
+    <BSP_VERSION>2.2.0</BSP_VERSION>
     <InPlaceBSPSubdir />
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -46,15 +46,14 @@
       <AdditionalOptions />
       <CLanguageStandard />
       <CPPLanguageStandard />
-      <Optimization>O2</Optimization>
+      <Optimization>O1</Optimization>
     </ClCompile>
     <Link>
       <AdditionalLinkerInputs>%(Link.AdditionalLinkerInputs)</AdditionalLinkerInputs>
       <AdditionalOptions />
     </Link>
     <KeilSettingsContainer>
-      <KeilCPUType>Cortex-M3-rev0</KeilCPUType>
-      <ARMCPU>cortex-m3</ARMCPU>
+      <KeilCPUType>Cortex-M3</KeilCPUType>
     </KeilSettingsContainer>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|VisualGDB'">
@@ -76,8 +75,8 @@
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\..\..\UCOSII\PORT\os_cpu_a.s" />
     <ClCompile Include="..\..\..\..\USER\main.c" />
+    <ClCompile Include="..\..\..\..\USER\startup_stm32f10x_hd.s" />
     <ClCompile Include="..\..\..\..\USER\system_stm32f10x.c" />
     <ClCompile Include="..\..\..\..\SYSTEM\delay\delay.c" />
     <ClCompile Include="..\..\..\..\SYSTEM\sys\sys.c" />
@@ -202,6 +201,7 @@
     <ClCompile Include="..\..\..\..\UCOSII\CORE\os_time.c" />
     <ClCompile Include="..\..\..\..\UCOSII\CORE\os_tmr.c" />
     <ClCompile Include="..\..\..\..\UCOSII\PORT\os_cpu_c.c" />
+    <ClCompile Include="..\..\..\..\UCOSII\PORT\os_cpu_a.s" />
     <ClCompile Include="..\..\..\..\AUDIOCODEC\mp3player.c" />
     <ClCompile Include="..\..\..\..\NES\nes_apu.c" />
     <ClCompile Include="..\..\..\..\NES\nes_main.c" />
@@ -277,6 +277,5 @@
     <None Include="F103BootRoutine-Debug.vgdbsettings" />
     <None Include="F103BootRoutine-Release.vgdbsettings" />
     <None Include="MCU.xml" />
-    <ClInclude Include="RTE/RTE_Components.h" />
   </ItemGroup>
 </Project>

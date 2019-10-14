@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.421
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "F103BootRoutine", "F103BootRoutine\F103BootRoutine.vcxproj", "{A5176412-58C6-4DDF-8134-4E85CEAA2874}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "F103BootRoutine", "F103BootRoutine\F103BootRoutine.vcxproj", "{B7FDFE0C-60FE-4BED-8346-936B575A25E4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|VisualGDB = Release|VisualGDB
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{A5176412-58C6-4DDF-8134-4E85CEAA2874}.Debug|VisualGDB.ActiveCfg = Debug|VisualGDB
-		{A5176412-58C6-4DDF-8134-4E85CEAA2874}.Debug|VisualGDB.Build.0 = Debug|VisualGDB
-		{A5176412-58C6-4DDF-8134-4E85CEAA2874}.Release|VisualGDB.ActiveCfg = Release|VisualGDB
-		{A5176412-58C6-4DDF-8134-4E85CEAA2874}.Release|VisualGDB.Build.0 = Release|VisualGDB
+		{B7FDFE0C-60FE-4BED-8346-936B575A25E4}.Debug|VisualGDB.ActiveCfg = Debug|VisualGDB
+		{B7FDFE0C-60FE-4BED-8346-936B575A25E4}.Debug|VisualGDB.Build.0 = Debug|VisualGDB
+		{B7FDFE0C-60FE-4BED-8346-936B575A25E4}.Release|VisualGDB.ActiveCfg = Release|VisualGDB
+		{B7FDFE0C-60FE-4BED-8346-936B575A25E4}.Release|VisualGDB.Build.0 = Release|VisualGDB
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {447211F7-CB41-47D7-BBC8-B9B118CD20DD}
+		SolutionGuid = {257C6FAF-F876-484C-B6D7-2E91B9237915}
 	EndGlobalSection
 EndGlobal

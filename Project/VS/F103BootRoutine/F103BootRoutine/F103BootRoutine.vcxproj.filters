@@ -2,187 +2,187 @@
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
     <Filter Include="Source files">
-      <UniqueIdentifier>{6ac38c02-aa5a-4b42-be50-1011ef36ace8}</UniqueIdentifier>
+      <UniqueIdentifier>{b292c0a9-1a04-45c5-9019-22c64ec48228}</UniqueIdentifier>
       <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
     </Filter>
     <Filter Include="Header files">
-      <UniqueIdentifier>{4f6b03cd-9964-4758-9427-e981777e08c9}</UniqueIdentifier>
+      <UniqueIdentifier>{f63e2d57-c14d-4174-9395-1841f1199140}</UniqueIdentifier>
       <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
     </Filter>
     <Filter Include="Resource files">
-      <UniqueIdentifier>{3d2bada3-8637-4d84-bb00-3efeee7e578f}</UniqueIdentifier>
+      <UniqueIdentifier>{b0fdba23-7c67-49a8-96b4-0633eb0e3ab0}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
     </Filter>
     <Filter Include="Source files\USER">
-      <UniqueIdentifier>{13825dbf-b9f0-4b0c-8e87-82b573c50b5c}</UniqueIdentifier>
+      <UniqueIdentifier>{e20ff978-1744-49a9-9a4f-5a1c413de151}</UniqueIdentifier>
     </Filter>
     <Filter Include="Source files\SYSTEM">
-      <UniqueIdentifier>{72e0c01f-7a49-42ad-b78a-2c9b630a7286}</UniqueIdentifier>
+      <UniqueIdentifier>{0deefa18-eda2-4543-91e2-f4876d2bc817}</UniqueIdentifier>
     </Filter>
     <Filter Include="Source files\CORE">
-      <UniqueIdentifier>{03bfdc31-0962-4335-a2da-ac46a9064623}</UniqueIdentifier>
+      <UniqueIdentifier>{6f7e7fd1-1a63-458f-bf35-096473472f4c}</UniqueIdentifier>
     </Filter>
     <Filter Include="Source files\FWLIB">
-      <UniqueIdentifier>{cd331e82-994b-4d97-935f-c1dfa6f3b3da}</UniqueIdentifier>
+      <UniqueIdentifier>{10679e7a-edce-4b68-849e-929fcf0c40bc}</UniqueIdentifier>
     </Filter>
     <Filter Include="Source files\HARDWARE">
-      <UniqueIdentifier>{85860a84-dd65-405a-ac7b-885a435f0c75}</UniqueIdentifier>
+      <UniqueIdentifier>{f6981876-b661-4b3e-ba0d-8740ec043702}</UniqueIdentifier>
     </Filter>
     <Filter Include="Source files\USMART">
-      <UniqueIdentifier>{2bdff383-6f11-4246-a948-277952c2d796}</UniqueIdentifier>
+      <UniqueIdentifier>{a7779e47-d12f-48de-970d-e8f6f3cba5a9}</UniqueIdentifier>
     </Filter>
     <Filter Include="Source files\MALLOC">
-      <UniqueIdentifier>{d16801cb-2610-422a-88d7-251dc3449c28}</UniqueIdentifier>
+      <UniqueIdentifier>{ef8a2816-19bc-47d0-bc82-179b41258416}</UniqueIdentifier>
     </Filter>
     <Filter Include="Source files\FATFS">
-      <UniqueIdentifier>{0ec31554-16b1-48e3-8513-0d0ba58aba3f}</UniqueIdentifier>
+      <UniqueIdentifier>{313360e5-9d84-4bd6-a8f7-8be27d02b025}</UniqueIdentifier>
     </Filter>
     <Filter Include="Source files\TEXT">
-      <UniqueIdentifier>{fbff6ecc-6e4e-476f-a2d4-842bf1c47218}</UniqueIdentifier>
+      <UniqueIdentifier>{3d9f19ad-9e4a-4357-89d0-a0b5141f05af}</UniqueIdentifier>
     </Filter>
     <Filter Include="Source files\PICTURE">
-      <UniqueIdentifier>{e163971e-8cc3-4703-85cd-700160e3cca9}</UniqueIdentifier>
+      <UniqueIdentifier>{01bc6259-ce53-4008-8804-a3d52ff809b3}</UniqueIdentifier>
     </Filter>
     <Filter Include="Source files\APP">
-      <UniqueIdentifier>{feaebcdd-5abe-41f1-b2cf-eab858d1e752}</UniqueIdentifier>
+      <UniqueIdentifier>{6d5be2bd-7bbc-4f4d-b510-2af08ba84f11}</UniqueIdentifier>
     </Filter>
     <Filter Include="Source files\GUI">
-      <UniqueIdentifier>{0a44d8fe-a5e9-468c-a2ac-3016339f7a81}</UniqueIdentifier>
+      <UniqueIdentifier>{ebe7ced2-e4b4-475c-ba24-779f5b3cfdb8}</UniqueIdentifier>
     </Filter>
     <Filter Include="Source files\UCOSII-CORE">
-      <UniqueIdentifier>{e2556635-91d5-466f-88d8-2c60fdd6dbd4}</UniqueIdentifier>
+      <UniqueIdentifier>{4681564a-2523-482e-b305-8580d8bac0a6}</UniqueIdentifier>
     </Filter>
     <Filter Include="Source files\UCOSII-PORT">
-      <UniqueIdentifier>{9dfd1812-ceec-49e5-9576-d35310aa29e6}</UniqueIdentifier>
+      <UniqueIdentifier>{1e76d576-8530-4798-9c28-c7dc95c48ea3}</UniqueIdentifier>
     </Filter>
     <Filter Include="Source files\UCOSII-CONFIG">
-      <UniqueIdentifier>{571aaad4-5538-4592-8f57-5257e93e36b6}</UniqueIdentifier>
+      <UniqueIdentifier>{39d0feb5-86bc-4e74-8d2b-cdc9465db729}</UniqueIdentifier>
     </Filter>
     <Filter Include="Source files\AUDIOCODEC">
-      <UniqueIdentifier>{d3c3f29e-0af8-4a8e-9295-08c57e688bc8}</UniqueIdentifier>
+      <UniqueIdentifier>{3ab932de-f86e-42fa-bc48-45cdd0d32cfb}</UniqueIdentifier>
     </Filter>
     <Filter Include="Source files\NES">
-      <UniqueIdentifier>{ec185173-fa1d-4deb-8c73-2f418b0808fc}</UniqueIdentifier>
+      <UniqueIdentifier>{43ccaeb8-7f7a-4c67-8e70-32d18885e9c7}</UniqueIdentifier>
     </Filter>
     <Filter Include="Source files\T9INPUT">
-      <UniqueIdentifier>{5e8818e9-70b6-4a5c-ab6d-030be99ddbd2}</UniqueIdentifier>
+      <UniqueIdentifier>{a0887f92-4bb3-4030-8270-be14f50ce3f6}</UniqueIdentifier>
     </Filter>
     <Filter Include="Source files\ATKNCR">
-      <UniqueIdentifier>{e1edc369-3038-4d79-8f2f-7378a8ddd8e5}</UniqueIdentifier>
+      <UniqueIdentifier>{26a6db01-5774-4528-8bc7-e1a7566e560b}</UniqueIdentifier>
     </Filter>
     <Filter Include="Source files\USB_CORE">
-      <UniqueIdentifier>{6645ff46-c00e-4873-919c-3ed76422b335}</UniqueIdentifier>
+      <UniqueIdentifier>{8c9f8d8e-1578-4dc3-b0a1-58205dcd56af}</UniqueIdentifier>
     </Filter>
     <Filter Include="Source files\USB_CONFIG">
-      <UniqueIdentifier>{d1b55d53-c4e0-449c-9558-9449aee3a35d}</UniqueIdentifier>
+      <UniqueIdentifier>{cfb12b9b-5753-4a0a-8281-8dd617f85b04}</UniqueIdentifier>
     </Filter>
     <Filter Include="Source files\LWIP_APP">
-      <UniqueIdentifier>{65b99237-8ea4-4367-b79e-57f1077718e2}</UniqueIdentifier>
+      <UniqueIdentifier>{8577b60f-0931-45ed-9e4c-b2deef84b938}</UniqueIdentifier>
     </Filter>
     <Filter Include="Source files\LWIP_NETIF">
-      <UniqueIdentifier>{99a06c37-6f94-4035-981d-c2f32d659def}</UniqueIdentifier>
+      <UniqueIdentifier>{e947f282-ee51-41db-91a7-7119db1f2277}</UniqueIdentifier>
     </Filter>
     <Filter Include="Source files\LWIP_CORE">
-      <UniqueIdentifier>{f27d2069-3fa8-4a29-b13d-fa3e61b4af14}</UniqueIdentifier>
+      <UniqueIdentifier>{3c14aa85-2802-499e-b747-ddde6b281786}</UniqueIdentifier>
     </Filter>
     <Filter Include="Source files\LWIP_ARCH">
-      <UniqueIdentifier>{18949d30-a29d-4dd3-b5b5-dbef32800193}</UniqueIdentifier>
+      <UniqueIdentifier>{12b7c26e-6c7b-43c2-9465-56f830fc09ce}</UniqueIdentifier>
     </Filter>
     <Filter Include="Source files\LWIP_API">
-      <UniqueIdentifier>{dc70a798-32d7-4c84-861d-4cbf5baa973f}</UniqueIdentifier>
+      <UniqueIdentifier>{9a5db191-e024-4ad3-b9c6-f03ee153247c}</UniqueIdentifier>
     </Filter>
     <Filter Include="Source files\README">
-      <UniqueIdentifier>{db74a659-0e50-425d-96d2-79f3c1fa067f}</UniqueIdentifier>
+      <UniqueIdentifier>{3939fbd6-752e-4a6b-9505-a3209f0906a8}</UniqueIdentifier>
     </Filter>
     <Filter Include="Source files\Device-specific files">
-      <UniqueIdentifier>{11934185-fb86-4c07-b3fb-ee700e60d2f6}</UniqueIdentifier>
+      <UniqueIdentifier>{c1f5b251-e962-4c6c-9940-b961af21dae0}</UniqueIdentifier>
     </Filter>
     <Filter Include="Header files\USER">
-      <UniqueIdentifier>{821014ba-5c71-4b2e-8f16-bca56459ea3c}</UniqueIdentifier>
+      <UniqueIdentifier>{2104d98a-1118-4cad-92fd-17a089c9fda4}</UniqueIdentifier>
     </Filter>
     <Filter Include="Header files\SYSTEM">
-      <UniqueIdentifier>{b7173a2d-f264-4769-a736-f6e9ac84bf8c}</UniqueIdentifier>
+      <UniqueIdentifier>{80453b66-76b2-4b22-88dc-16ab5c69dd46}</UniqueIdentifier>
     </Filter>
     <Filter Include="Header files\CORE">
-      <UniqueIdentifier>{39954ea7-2369-458e-af66-237c39ed84c9}</UniqueIdentifier>
+      <UniqueIdentifier>{d5d33a38-86a7-4413-bf27-034c6616966c}</UniqueIdentifier>
     </Filter>
     <Filter Include="Header files\FWLIB">
-      <UniqueIdentifier>{bd11bbdf-1ad3-42e1-bda3-13efefeb0e04}</UniqueIdentifier>
+      <UniqueIdentifier>{2eb5e738-263a-4674-baf6-d647ffcda186}</UniqueIdentifier>
     </Filter>
     <Filter Include="Header files\HARDWARE">
-      <UniqueIdentifier>{c538b6d5-a26f-4103-a34f-469ad1f98457}</UniqueIdentifier>
+      <UniqueIdentifier>{c52bda0d-982e-4e7d-a4b1-5686b70b81b3}</UniqueIdentifier>
     </Filter>
     <Filter Include="Header files\USMART">
-      <UniqueIdentifier>{d6cd99ad-d9ae-4c65-b9c0-132c1458030a}</UniqueIdentifier>
+      <UniqueIdentifier>{14782442-d2bb-43be-ab32-0c19c8a437e4}</UniqueIdentifier>
     </Filter>
     <Filter Include="Header files\MALLOC">
-      <UniqueIdentifier>{c81730e3-46a2-440e-902f-1b2f0efcfac6}</UniqueIdentifier>
+      <UniqueIdentifier>{2c7f4097-daf9-41dc-98d2-d7c03871f8ee}</UniqueIdentifier>
     </Filter>
     <Filter Include="Header files\FATFS">
-      <UniqueIdentifier>{064dec4a-dbe2-471a-982f-8dc8b7d3089b}</UniqueIdentifier>
+      <UniqueIdentifier>{d7d2bbc0-7fc7-4696-bb27-8df0b25a02ea}</UniqueIdentifier>
     </Filter>
     <Filter Include="Header files\TEXT">
-      <UniqueIdentifier>{9e2dc272-52da-4467-881f-49cfc3be7a25}</UniqueIdentifier>
+      <UniqueIdentifier>{c1dc08fb-9a7c-4963-9768-0bdce9956a0a}</UniqueIdentifier>
     </Filter>
     <Filter Include="Header files\PICTURE">
-      <UniqueIdentifier>{8e42cc1f-e479-4567-9257-18c1c8dcc74d}</UniqueIdentifier>
+      <UniqueIdentifier>{f9c1d32d-0b0b-4a70-be81-98c719a42ea4}</UniqueIdentifier>
     </Filter>
     <Filter Include="Header files\APP">
-      <UniqueIdentifier>{662ffe7b-1710-4464-a0db-89a2765960ed}</UniqueIdentifier>
+      <UniqueIdentifier>{c994f9d0-91b2-4805-b43d-94bf4df2353a}</UniqueIdentifier>
     </Filter>
     <Filter Include="Header files\GUI">
-      <UniqueIdentifier>{f72dead3-eaac-45e0-a10e-94fb0bcda27d}</UniqueIdentifier>
+      <UniqueIdentifier>{3406386c-f6ca-4fbb-adde-ff2d940c3395}</UniqueIdentifier>
     </Filter>
     <Filter Include="Header files\UCOSII-CORE">
-      <UniqueIdentifier>{881f5e09-923f-41a6-8927-1654e2f0d2e3}</UniqueIdentifier>
+      <UniqueIdentifier>{787def01-4540-4344-9811-bce5d84a7633}</UniqueIdentifier>
     </Filter>
     <Filter Include="Header files\UCOSII-PORT">
-      <UniqueIdentifier>{726346a8-5996-4105-b3b7-ad404cb1a16a}</UniqueIdentifier>
+      <UniqueIdentifier>{6132bade-85ef-4cbd-8ded-04d25524363a}</UniqueIdentifier>
     </Filter>
     <Filter Include="Header files\UCOSII-CONFIG">
-      <UniqueIdentifier>{c858664f-d78c-4830-a11d-24fe715b1571}</UniqueIdentifier>
+      <UniqueIdentifier>{8ddc9aee-588b-4ee4-af97-d8b5a0a7df86}</UniqueIdentifier>
     </Filter>
     <Filter Include="Header files\AUDIOCODEC">
-      <UniqueIdentifier>{8463b492-e798-49a7-b0e5-88d0cf561b49}</UniqueIdentifier>
+      <UniqueIdentifier>{9bab8fb2-d7be-48ac-8179-df9f0a0d0581}</UniqueIdentifier>
     </Filter>
     <Filter Include="Header files\NES">
-      <UniqueIdentifier>{7884ee5b-ca2b-4295-a235-fa1a00c0548e}</UniqueIdentifier>
+      <UniqueIdentifier>{ed2e324e-46c3-4f29-bc52-b255b0df485d}</UniqueIdentifier>
     </Filter>
     <Filter Include="Header files\T9INPUT">
-      <UniqueIdentifier>{efa5e0ac-8308-4666-8418-198b91136ab4}</UniqueIdentifier>
+      <UniqueIdentifier>{723adc9d-b946-4353-83de-4928a74f6b4f}</UniqueIdentifier>
     </Filter>
     <Filter Include="Header files\ATKNCR">
-      <UniqueIdentifier>{c139b13e-f6fd-4d35-8066-e119c2350f7e}</UniqueIdentifier>
+      <UniqueIdentifier>{d29429a6-78a0-4efb-b6c3-db4edb74ab1a}</UniqueIdentifier>
     </Filter>
     <Filter Include="Header files\USB_CORE">
-      <UniqueIdentifier>{ad63831c-646e-405b-82d5-7df0f8890846}</UniqueIdentifier>
+      <UniqueIdentifier>{2ca1ffac-ec64-4abe-88f0-b5bdc0850986}</UniqueIdentifier>
     </Filter>
     <Filter Include="Header files\USB_CONFIG">
-      <UniqueIdentifier>{504c33bb-a00c-4f82-b87e-ce949764c709}</UniqueIdentifier>
+      <UniqueIdentifier>{ae774e6f-0ec9-425c-995c-a2e58c7ab534}</UniqueIdentifier>
     </Filter>
     <Filter Include="Header files\LWIP_APP">
-      <UniqueIdentifier>{9054fac4-bfe8-424e-896d-36a8c63b2f6f}</UniqueIdentifier>
+      <UniqueIdentifier>{7e22bb49-8969-4f93-b835-5997749ab6c3}</UniqueIdentifier>
     </Filter>
     <Filter Include="Header files\LWIP_NETIF">
-      <UniqueIdentifier>{e1dc4e52-9604-4696-b4f4-c589ef833db3}</UniqueIdentifier>
+      <UniqueIdentifier>{920caf09-28d8-47a1-be1c-ae58cef279ed}</UniqueIdentifier>
     </Filter>
     <Filter Include="Header files\LWIP_CORE">
-      <UniqueIdentifier>{eee6951c-037c-426d-9b88-6f601334604b}</UniqueIdentifier>
+      <UniqueIdentifier>{371c347a-a18a-494d-984c-a4eae4ada94c}</UniqueIdentifier>
     </Filter>
     <Filter Include="Header files\LWIP_ARCH">
-      <UniqueIdentifier>{f69332f6-0550-4477-8a7a-4b2f8badd9c9}</UniqueIdentifier>
+      <UniqueIdentifier>{66268afa-4130-4758-86ff-1c09774632cd}</UniqueIdentifier>
     </Filter>
     <Filter Include="Header files\LWIP_API">
-      <UniqueIdentifier>{d0c39b8e-4e46-470f-8b32-1e5d3a9f1c7a}</UniqueIdentifier>
+      <UniqueIdentifier>{9fb509be-f3a2-4b44-afe4-6164ff61c317}</UniqueIdentifier>
     </Filter>
     <Filter Include="Header files\README">
-      <UniqueIdentifier>{071be673-e710-4567-83b3-1ac6f51fcb22}</UniqueIdentifier>
+      <UniqueIdentifier>{e5c6aceb-b6b7-49a7-b96c-9efec844df46}</UniqueIdentifier>
     </Filter>
     <Filter Include="Header files\Device-specific files">
-      <UniqueIdentifier>{5decfd17-6a9a-4cb4-bc0e-935cc7f2f0f1}</UniqueIdentifier>
+      <UniqueIdentifier>{5069180b-de83-4cda-aa27-8f7b3657e040}</UniqueIdentifier>
     </Filter>
     <Filter Include="VisualGDB settings">
-      <UniqueIdentifier>{401d0456-3f4e-4cfd-8d93-cca9ced58d4a}</UniqueIdentifier>
+      <UniqueIdentifier>{a2564e62-e0a2-4467-a682-1ba7605430e0}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -561,6 +561,9 @@
     <ClCompile Include="..\..\..\..\UCOSII\PORT\os_cpu_c.c">
       <Filter>Source files\UCOSII-PORT</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\..\..\UCOSII\PORT\os_cpu_a.s">
+      <Filter>Source files\UCOSII-PORT</Filter>
+    </ClCompile>
     <ClCompile Include="..\..\..\..\AUDIOCODEC\mp3player.c">
       <Filter>Source files\AUDIOCODEC</Filter>
     </ClCompile>
@@ -786,11 +789,8 @@
     <None Include="MCU.xml">
       <Filter>VisualGDB settings</Filter>
     </None>
-    <ClCompile Include="..\..\..\..\UCOSII\PORT\os_cpu_a.s">
-      <Filter>Source files\UCOSII-PORT</Filter>
+    <ClCompile Include="..\..\..\..\USER\startup_stm32f10x_hd.s">
+      <Filter>Source files\USER</Filter>
     </ClCompile>
-    <ClInclude Include="RTE/RTE_Components.h">
-      <Filter>Header files</Filter>
-    </ClInclude>
   </ItemGroup>
 </Project>

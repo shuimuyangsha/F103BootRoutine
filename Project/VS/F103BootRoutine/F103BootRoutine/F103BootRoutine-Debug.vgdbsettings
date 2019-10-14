@@ -18,10 +18,7 @@
       </Version>
     </ToolchainID>
     <ProjectFile>F103BootRoutine.vcxproj</ProjectFile>
-    <RemoteBuildEnvironment>
-      <Records />
-    </RemoteBuildEnvironment>
-    <ParallelJobCount>1</ParallelJobCount>
+    <ParallelJobCount>0</ParallelJobCount>
     <SuppressDirectoryChangeMessages>true</SuppressDirectoryChangeMessages>
   </Build>
   <CustomBuild>
@@ -42,7 +39,6 @@
     <ShowMessageAfterExecuting>true</ShowMessageAfterExecuting>
   </CustomShortcuts>
   <UserDefinedVariables />
-  <ImportedPropertySheets />
   <CodeSense>
     <Enabled>Unknown</Enabled>
     <ExtraSettings>
@@ -56,8 +52,6 @@
     </CodeAnalyzerSettings>
   </CodeSense>
   <BuildContextDirectory>VisualGDB\VisualGDBCache</BuildContextDirectory>
-  <Configurations />
-  <ProgramArgumentsSuggestions />
   <Debug xsi:type="com.visualgdb.debug.embedded">
     <AdditionalStartupCommands />
     <AdditionalGDBSettings>
@@ -93,7 +87,7 @@
     <DebugMethod>
       <ID>jlink-jtag</ID>
       <Configuration xsi:type="com.visualgdb.edp.segger.settings">
-        <CommandLine>-select USB -device $$SYS:MCU_ID$$ -speed auto -if JTAG</CommandLine>
+        <CommandLine>-select USB -device $$SYS:MCU_ID$$ -speed auto -if SWD</CommandLine>
         <ProgramMode>Enabled</ProgramMode>
         <StartupCommands>
           <string>target remote :$$SYS:GDB_PORT$$</string>
@@ -112,26 +106,7 @@
     <ValidateEndOfStackAddress>true</ValidateEndOfStackAddress>
     <StopAtEntryPoint>false</StopAtEntryPoint>
     <EnableVirtualHalts>false</EnableVirtualHalts>
-    <DynamicAnalysisSettings>
-      <StackVerifier>
-        <VerifyStackBounds>false</VerifyStackBounds>
-        <AutoStepOutOfHook>true</AutoStepOutOfHook>
-        <StackLimitControlledByUser>false</StackLimitControlledByUser>
-        <ExplicitSizeLimit>0</ExplicitSizeLimit>
-        <ExplicitStackBase>0</ExplicitStackBase>
-        <Mode>Auto</Mode>
-      </StackVerifier>
-      <RealTimeWatch>
-        <SupportRTOSAnalysis>false</SupportRTOSAnalysis>
-        <SupportFunctionInstrumentation>false</SupportFunctionInstrumentation>
-        <MeasureOverhead>true</MeasureOverhead>
-      </RealTimeWatch>
-      <InstrumentedFunctions>
-        <InstrumentNewFunctions>true</InstrumentNewFunctions>
-        <ExplicitEndOfFLASH>0</ExplicitEndOfFLASH>
-        <ExplicitEndOfRAM>0</ExplicitEndOfRAM>
-      </InstrumentedFunctions>
-    </DynamicAnalysisSettings>
+    <DynamicAnalysisSettings />
     <EndOfStackSymbol>_estack</EndOfStackSymbol>
     <TimestampProviderTicksPerSecond>0</TimestampProviderTicksPerSecond>
     <KeepConsoleAfterExit>false</KeepConsoleAfterExit>
