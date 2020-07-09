@@ -14,7 +14,7 @@
     <VCProjectVersion>15.0</VCProjectVersion>
     <ProjectGuid>{B7FDFE0C-60FE-4BED-8346-936B575A25E4}</ProjectGuid>
     <BSP_ID>KEIL:Keil/STM32F1xx_DFP</BSP_ID>
-    <BSP_VERSION>2.2.0</BSP_VERSION>
+    <BSP_VERSION>2.3.0</BSP_VERSION>
     <InPlaceBSPSubdir />
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />

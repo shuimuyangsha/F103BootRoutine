@@ -6,7 +6,7 @@
     <Revision>1</Revision>
   </ToolchainVersion>
   <BspID>KEIL:Keil/STM32F1xx_DFP</BspID>
-  <BspVersion>2.2.0</BspVersion>
+  <BspVersion>2.3.0</BspVersion>
   <McuID>STM32F103ZE</McuID>
   <MCUDefinitionFile>SVD/STM32F103xx.svd</MCUDefinitionFile>
   <MCUProperties>
